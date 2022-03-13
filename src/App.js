@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<CharactersList />} />
-        <Route path='/search' element={<Search />} />
-        <Route path='/:id' element={<Character />} />
+        <Route path='/gql-react-test' element={<CharactersList />} />
+        <Route path='/gql-react-test/search' element={<Search />} />
+        <Route path='/gql-react-test/:id' element={<Character />} />
       </Routes>
     </div>
   );
