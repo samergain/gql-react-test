@@ -1,1 +1,0 @@
-# gql-react-test
